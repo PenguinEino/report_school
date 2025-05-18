@@ -1,0 +1,250 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="ページ1" id="IHWBm8F0MaHIAAMMsUK_">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WAXmCKPnWNZg_kObu25O-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHL8JFIjxgsYVEMmiiz9-1" target="WAXmCKPnWNZg_kObu25O-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jHL8JFIjxgsYVEMmiiz9-1" value="192.168.1.11/24" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1560" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHL8JFIjxgsYVEMmiiz9-3" target="WAXmCKPnWNZg_kObu25O-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jHL8JFIjxgsYVEMmiiz9-3" value="192.168.1.2/24" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="1560" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHL8JFIjxgsYVEMmiiz9-4" target="WAXmCKPnWNZg_kObu25O-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jHL8JFIjxgsYVEMmiiz9-4" value="192.168.1.3/24" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1560" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHL8JFIjxgsYVEMmiiz9-5" target="WAXmCKPnWNZg_kObu25O-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jHL8JFIjxgsYVEMmiiz9-5" value="192.168.2.4/24" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1560" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHL8JFIjxgsYVEMmiiz9-6" target="WAXmCKPnWNZg_kObu25O-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jHL8JFIjxgsYVEMmiiz9-6" value="192.168.2.5/24" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1560" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-2" target="WAXmCKPnWNZg_kObu25O-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-2" value="スイッチングハブ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-3" target="WAXmCKPnWNZg_kObu25O-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-3" value="スイッチングハブ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-19" target="WAXmCKPnWNZg_kObu25O-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-19" target="WAXmCKPnWNZg_kObu25O-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-19" target="WAXmCKPnWNZg_kObu25O-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-19" value="ルータ 1&lt;br&gt;Cisco 1941/K9" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-20" target="WAXmCKPnWNZg_kObu25O-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-20" target="WAXmCKPnWNZg_kObu25O-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-20" value="ルータ 2&lt;div&gt;Cisco 1941/K9&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-32" target="WAXmCKPnWNZg_kObu25O-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-32" target="WAXmCKPnWNZg_kObu25O-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-32" value="ルータ 5&lt;div&gt;Cisco 1941/K9&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-33" target="WAXmCKPnWNZg_kObu25O-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-33" value="ルータ 6&lt;div&gt;Cisco 1941/K9&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-62" target="WAXmCKPnWNZg_kObu25O-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-62" value="ルータ 9&lt;div&gt;Cisco ISR1841&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-69" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="WAXmCKPnWNZg_kObu25O-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="474.85" y="1040" as="sourcePoint" />
+            <mxPoint x="595.1600000000001" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-74" value="&lt;font&gt;192.168.1.1/24,&lt;/font&gt;&lt;div&gt;&lt;font&gt;0/0&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="95" y="1320" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-75" value="&lt;font&gt;192.168.2.1/24,&lt;/font&gt;&lt;div&gt;&lt;font&gt;0/0&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="395" y="1320" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-78" value="&lt;font&gt;192.168.15.2/24, 0/1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-79" value="&lt;font&gt;192.168.15.1/24, 0/1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-80" value="&lt;font&gt;192.168.12.1/24,&lt;br&gt;Serial 0/0/1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1255" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-81" value="&lt;font&gt;192.168.12.2/24,&lt;br&gt;Serial 0/0/1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1255" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-86" value="&lt;font&gt;192.168.56.1/24,&lt;br&gt;Serial 0/0/1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1030" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-90" value="&lt;font&gt;192.168.56.2/24,&lt;br&gt;Serial 0/0/1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1030" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-92" value="&lt;font&gt;192.168.69.2/24,&amp;nbsp;&lt;br&gt;0/0&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="465" y="1000" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-93" value="&lt;font&gt;192.168.69.1/24,&amp;nbsp;&lt;br&gt;0/1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="365" y="940" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-95" value="&lt;font&gt;192.168.91.1/24,&lt;br&gt;Serial 0/0/0&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="380" y="870" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-102" target="WAXmCKPnWNZg_kObu25O-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-102" value="192.168.3.6/24" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1560" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-104" target="WAXmCKPnWNZg_kObu25O-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-104" value="192.168.3.7/24" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1560" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-106" target="WAXmCKPnWNZg_kObu25O-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-106" value="192.168.4.8/24" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="945" y="1560" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-108" target="WAXmCKPnWNZg_kObu25O-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-108" value="192.168.4.9/24" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1560" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-110" target="WAXmCKPnWNZg_kObu25O-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-110" value="スイッチングハブ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-112" target="WAXmCKPnWNZg_kObu25O-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-112" value="スイッチングハブ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-116" target="WAXmCKPnWNZg_kObu25O-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-116" target="WAXmCKPnWNZg_kObu25O-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-116" target="WAXmCKPnWNZg_kObu25O-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-116" value="ルータ 3&lt;div&gt;Cisco 1941/K9&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-120" target="WAXmCKPnWNZg_kObu25O-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-120" target="WAXmCKPnWNZg_kObu25O-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-120" value="ルータ 4&lt;div&gt;Cisco ISR1841&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-123" target="WAXmCKPnWNZg_kObu25O-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-123" target="WAXmCKPnWNZg_kObu25O-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-123" value="ルータ 7&lt;div&gt;Cisco ISR1841&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-126" target="WAXmCKPnWNZg_kObu25O-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-126" value="ルータ 8&lt;div&gt;Cisco ISR1841&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAXmCKPnWNZg_kObu25O-127" target="WAXmCKPnWNZg_kObu25O-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-127" value="ルータ 10&lt;div&gt;Cisco 1941/K9&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-129" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="WAXmCKPnWNZg_kObu25O-127">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1034.85" y="1040" as="sourcePoint" />
+            <mxPoint x="1155.16" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-130" value="&lt;font&gt;192.168.3.1/24,&lt;/font&gt;&lt;div&gt;&lt;font&gt;0/0&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="655" y="1320" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-131" value="&lt;font&gt;192.168.4.1/24,&lt;/font&gt;&lt;div&gt;&lt;font&gt;0/0&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="955" y="1320" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-132" value="&lt;font&gt;192.168.37.2/24, 0/1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-133" value="&lt;font&gt;192.168.37.1/24, 0/1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-134" value="&lt;font&gt;192.168.34.1/24,&lt;br&gt;Serial 0/0/1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1255" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-135" value="&lt;font&gt;192.168.34.2/24,&lt;br&gt;Serial 0/0/1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1255" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-138" value="&lt;font&gt;192.168.78.1/24,&lt;br&gt;Serial 0/0/1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1030" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-139" value="&lt;font&gt;192.168.78.2/24,&lt;br&gt;Serial 0/0/1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1030" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-141" value="&lt;font&gt;192.168.81.2/24,&amp;nbsp;&lt;br&gt;0/0&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="1000" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-142" value="&lt;font&gt;192.168.81.1/24,&amp;nbsp;&lt;br&gt;0/1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="925" y="940" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WAXmCKPnWNZg_kObu25O-144" value="&lt;font&gt;192.168.91.2/24,&lt;br&gt;Serial 0/0/0&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="740" y="870" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

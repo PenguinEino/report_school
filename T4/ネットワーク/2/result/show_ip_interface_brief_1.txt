@@ -1,0 +1,7 @@
+Router>show ip interface brief
+Interface                  IP-Address      OK? Method Status                Protocol
+Embedded-Service-Engine0/0 unassigned      YES NVRAM  administratively down down    
+GigabitEthernet0/0         192.168.69.2    YES manual up                    up      
+GigabitEthernet0/1         192.168.26.2    YES manual up                    up      
+Serial0/0/0                unassigned      YES unset  administratively down down    
+Serial0/0/1                192.168.56.2    YES manual up                    up 

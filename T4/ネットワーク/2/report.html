@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>&#x76ee;&#x7684;</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <hr>
+<p>documentclass: ltjsarticle
+title: 情報通信工学実習 ルータの設定とルートの確認
+author: T404 岡崎英之介
+header-includes:</p>
+<ul>
+<li>\usepackage[margin=1in]{geometry}</li>
+<li>\usepackage{longtable}</li>
+<li>\usepackage{booktabs}
+figureTitle: &quot;図&quot;
+tableTitle: &quot;表&quot;
+listingTitle: &quot;コード&quot;
+figPrefix: &quot;図&quot;
+eqnPrefix: &quot;式&quot;
+tblPrefix: &quot;表&quot;
+lstPrefix: &quot;コード&quot;</li>
+</ul>
+<hr>
+<h1 id="目的">目的</h1>
+<p>コンピュータネットワークにおいて、IP アドレス、ルータの役割を理解し、ルータの設定の仕方を学習し、ルータによるルーティングを確認することを目的とした。</p>
+<h1 id="使用機器">使用機器</h1>
+<p>使用機器を表 1 に示す。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">機器名</th>
+<th style="text-align:center">製造元</th>
+<th style="text-align:center">型番</th>
+<th style="text-align:center">シリアル番号</th>
+<th style="text-align:center">個数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right"></td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">1</td>
+</tr>
+<tr>
+<td style="text-align:right"></td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">1</td>
+</tr>
+<tr>
+<td style="text-align:right"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">1</td>
+</tr>
+<tr>
+<td style="text-align:right"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">1</td>
+</tr>
+</tbody>
+</table>
+<p>:使用機器</p>
+<h1 id="実験方法">実験方法</h1>
+<h2 id="ネットワークの設計">ネットワークの設計</h2>
+<p>ネットワークの構成を次ページの図 1 のように定めた。</p>
+<ul>
+<li>ルーターの IP アドレスは各ポート毎に別々のネットワークとして割り当てた</li>
+<li>0/0, 0/1, Serial 0/0/0, Serial 0/0/1 はインターフェース名</li>
+<li>0/0 : FastEthernet 0/0 または GigabitEthernet 0/0</li>
+<li>0/1 : FastEthernet 0/1 または GigabitEthernet 0/1</li>
+<li>FastEthenert は 100 Mbps, GigabitEthernet は 1 Gbps</li>
+</ul>
+<h2 id="ネットワークの配線">ネットワークの配線</h2>
+<p>図 1 と同じ構成になるように各ルーター、スイッチングハブ、PC を接続した。使用したケーブルは以下のルールに従った。</p>
+<ul>
+<li>ルーター同士（縦）はストレートのツイストペアケーブル</li>
+<li>ルーター同士（横）はシリアル通信ケーブル（DCE, DTE）</li>
+<li>それ以外はクロスのツイストペアケーブル</li>
+</ul>
+<p>配線が終わったら、全ての機器に電源ケーブルを接続し、電源を入れた。
+PC は USB メモリから Linux(knoppix) を起動した。</p>
+<p>\clearpage</p>
+<p><img src="file:///h:\マイドライブ\学習面\高専\レポート\T4\ネットワーク\2\network.png" alt="ネットワークの構成図"> { width=100% }</p>
+<h2 id="pc-のインターフェース設定">PC のインターフェース設定</h2>
+<p>以下のコマンドを実行し、IP アドレスを各 PC に割り当てた。割り当てた IP アドレスは図 1 の通りである。</p>
+<ol>
+<li><code>su</code></li>
+<li><code>ifconfig eth0 192.168.Y.X netmask 255.255.255.0</code></li>
+<li><code>route add default gw 192.168.Y.1</code></li>
+</ol>
+<h2 id="ルータのインターフェス設定">ルータのインターフェス設定</h2>
+<p>以下の手順で、各ルーターの各ポートに IP アドレスを割り当てた。割り当てた IP アドレスは図 1 の通りである。</p>
+<ol>
+<li>PC の USB ポートとルータのコンソールポートをコンソールケーブルで接続した</li>
+<li>PC で Terminal を開き、<code>cu -s 9600 -l /dev/ttyUSB0</code> でルーターと接続した</li>
+<li><code>enable</code></li>
+<li><code>configure terminal</code></li>
+<li><code>interface {GigabitEthernet, FastEthernet, Serial} {0/0, 0/1, 0/0/0, 0/0/1} 192.168.Y.1 255.255.255.0</code></li>
+<li><code>no shutdown</code></li>
+<li><code>exit</code></li>
+<li>5 ~ 7 を繰り返し各ポートの設定を行った</li>
+</ol>
+<h2 id="ルータのルーティング設定">ルータのルーティング設定</h2>
+<p>以下の手順で、RIP の設定を行った。</p>
+<ol>
+<li>前項と同様にルーターと PC を接続した。</li>
+<li><code>enable</code></li>
+<li><code>configure terminal</code></li>
+<li><code>router rip</code></li>
+<li><code>network {ルーターの各ポートのネットワークアドレス}</code></li>
+<li>5 を、各ポートに割り当てられたネットワークアドレスについて実行した</li>
+</ol>
+<h2 id="設定の確認">設定の確認</h2>
+<p>以下のコマンドをルーターで実行し、各ルーターのインターフェイス、ルーティングテーブルの状態を確認して、結果を記録した。</p>
+<ol>
+<li><code>show ip interface brief</code></li>
+<li><code>show ip route</code></li>
+</ol>
+<h2 id="接続確認-1">接続確認 1</h2>
+<p>以下の接続確認を行い、結果を記録した。</p>
+<ol>
+<li>
+<p>各 PC から全てのルーターに対して ping コマンドで接続を確認した。ルーターは複数の IP アドレスを持つが、ネットワーク的に最も近いアドレスを指定した。</p>
+</li>
+<li>
+<p>各 PC から他の全ての PC に対して <code>ping</code> コマンドで接続を確認した。</p>
+</li>
+<li>
+<p>各 PC から他の全ての PC に対して <code>traceroute</code> コマンドで通信経路を確認した</p>
+</li>
+</ol>
+<h2 id="接続確認-2">接続確認 2</h2>
+<p>次ページの図 2 に示した構成になるようにケーブルを外した上で以下の接続確認を行い、結果を記録した。</p>
+<ol>
+<li>各 PC から他の全ての PC に対して <code>traceroute</code> コマンドで通信経路を確認した</li>
+</ol>
+<h1 id="実験結果">実験結果</h1>
+<h2 id=""></h2>
+<h1 id="課題">課題</h1>
+<h1 id="結論">結論</h1>
+
+            
+            
+        </body>
+        </html>
